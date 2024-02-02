@@ -1,0 +1,14 @@
+{
+  "resource": {
+    "aws_iam_group_membership": {
+      "crossaccountaccess-members": {
+        "name": "crossaccountaccess-membership",
+        "users": [
+          "${aws_iam_user.owen_blacker.name}",
+          "${aws_iam_user.jenny_blacker.name}"
+        ],
+        "group": "CrossAccountAccess"
+      }
+    }
+  }
+}

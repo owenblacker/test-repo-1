@@ -1,0 +1,19 @@
+{
+  "resource": [
+    {
+      "aws_iam_user": {
+        "owen_blacker": {
+          "name": "owen.blacker@example.com",
+          "force_destroy": true
+        }
+      }
+    },
+    {
+      "aws_iam_user": {
+        "jenny_blacker": {
+          "name": "jenny.blacker@example.com",
+          "force_destroy": true
+        }
+      }
+    }]
+  }
